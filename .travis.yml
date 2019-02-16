@@ -1,9 +1,13 @@
 language: java
+install: true
+
+before_install:
+  - chmod +x gradlew
+
 jobs:
   include:
-    - stage: "Build"
-    name: "Build Services"
-    script: ./gradlew build
+      stage: Build
+      script: ./gradlew build
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
