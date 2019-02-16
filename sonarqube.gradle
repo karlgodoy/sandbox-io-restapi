@@ -1,0 +1,7 @@
+sonarqube {
+    properties {
+        property "sonar.projectName", "sandbox-io-restapi"
+        property "sonar.projectKey", "karlgodoy_sandbox-io-restapi"
+        property "sonar.organization", "karlgodoy-github"
+    }
+}
