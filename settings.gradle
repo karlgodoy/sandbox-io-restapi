@@ -1,0 +1,3 @@
+rootProject.name = 'sandbox-users-restapi'
+
+include 'sandbox-users-service'
