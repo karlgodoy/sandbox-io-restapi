@@ -6,9 +6,9 @@ before_install:
 
 jobs:
   include:
-      - stage: Build
+    - stage: Build
       script: ./gradlew build
-      - stage: Sonarqube
+    - stage: Sonarqube
       script: ./gradlew sonarqube
 
 before_cache:
